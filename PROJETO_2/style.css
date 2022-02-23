@@ -99,6 +99,7 @@ img {
    #close:hover{
     transform: scale(1.10);
     color: red;
+    transition: 0.1;
    }
 
    .lbox:target .box_img img{
@@ -124,7 +125,7 @@ img {
        margin-top: 30px;
        margin-bottom: 30px;
        color: #ffffff;
-       border-bottom: 1px solid blueviolet;
+       border-bottom: 2px solid rgb(255, 42, 42);
        width: 400px;
        margin: 30px auto;
        
